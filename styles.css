@@ -1,0 +1,550 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Poppins', sans-serif
+}
+body {
+    overflow-x: hidden;
+    background-color: rgb(252, 242, 242);
+}
+nav {
+    padding: 30px;
+    display: flex;
+
+}
+nav img {
+    z-index: 100;
+    width: 100px;
+     height: 60px;
+}
+ul {
+    list-style: none;
+}
+.nav-links {
+    display: flex;
+    height: 100%;
+    padding: 10px 30px;
+    margin-left: auto;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    font-size: 1.2em;
+}
+.nav-links a {
+    text-decoration: none;
+    color: #EA0B8C;
+}
+.nav-links a:hover {
+    color: white;
+    transition: all .1s ease-out;
+}
+.hamburger {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 40px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+.hamburger a {
+    text-decoration: none;
+    color: rgb(196, 43, 68);
+}
+
+
+
+.hero {
+    background-image: url(images/driver-in-a-car-EEDCX7L.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15px;
+    margin-bottom: 150px;
+}
+.hero .left-col {
+    display: flex;
+    flex-direction: column;
+
+    align-items: flex-end;
+}
+
+.hero .btn1, .btn2 {
+    margin-left: 5px;
+    padding: 8px 10px;
+    border-radius: 15px;
+    box-shadow: 9px 5px 15px -7px #000000;
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    cursor: pointer;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+}
+.hero .btn1 {
+    margin-top: 80px;
+    background-color: rgb(154, 105, 154);
+    margin-left: 8px;
+}
+
+.hero .btn2 {
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+}
+.hero .btn1:hover {
+    background-position: right center;
+    background-color: rgb(133, 88, 133);
+}
+.hero .btn2:hover {
+    background-color: rgb(240, 240, 240);
+}
+.hero .main-title {
+    font-weight: 700;
+    margin-top: 60px;
+    font-size: 1.3em;
+    color: white;
+    text-align: center;
+}
+.hero .subhead {
+    display: none;
+    color: white;
+    font-size: .6em;
+    margin-left: 180px;
+    margin-top: 15px;
+}
+
+.ride-with-lyft .container{
+    padding: 25px 45px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.ride-with-lyft .left-col, .right-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ride-with-lyft img {
+    max-width: 350px;
+
+}
+.ride-with-lyft h2 {
+    margin: 30px 0;
+    text-align: center;
+    width: 80%;
+}
+.ride-with-lyft p {
+    margin-bottom: 14px;
+    text-align: center;
+}
+.ride-with-lyft .phone-item {
+    margin-top: 20px;
+    display: flex;
+    font-size: 1em;
+    align-items:flex-start;
+}
+.fa-check-circle {
+    margin-right: 10px;
+    color: green;
+    font-size: 1.8em;
+}
+
+
+.info .container {
+    margin-top: 50px;
+    padding: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info h1 {
+     font-size: 2em;
+    margin: 20px 0;
+}
+.info .rider .left-col img {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 70px 20px 10px;
+}
+.info .driver .subheading {
+    margin-bottom: 30px;
+}
+.info h2 {
+    margin: 15px 0;
+}
+.info .driver img {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    width: 100%;
+    border-radius: 10px 20px 70px;
+}
+.rider .right-col p {
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+.info .driver .driver-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.driver-box i {
+    margin-bottom: 14px;
+}
+.info .list-item {
+    flex-basis: 100%;
+    width: 100%;
+}
+.info .list-header {
+    text-align: center;
+}
+.info .driver .driver-box .left-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+
+.benefits {
+    background-color: #e8becc;
+}
+.benefits .container {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.benefits .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.benefits .box img {
+    width: 50%;
+}
+.benefits h3{
+    font-size: 1.6em;
+    text-align: center;
+    margin: 25px 0;
+}
+.benefits h2 {
+    font-size: 2em;
+    text-align: center;
+}
+.benefits p {
+    text-align: center;
+}
+
+.companies .container {
+    padding: 25px;
+}
+.companies h2 {
+    font-size: 2em;
+    text-align: center;
+    margin: 20px 0;
+}
+.companies p {
+    text-align: center;
+}
+.company-icons {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    justify-items: center;
+    align-items: center;
+}
+
+footer {
+    padding: 20px 15px;
+    color: rgb(206, 206, 206);
+    background-color: rgb(87, 86, 86);
+    display: flex;
+    font-size: .8em;
+    justify-content: center;
+}
+footer a {
+    margin: 0 10px;
+    color: rgb(206, 206, 206);
+}
+footer .small-text {
+    font-size: .8em;
+}
+footer .social-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+
+
+/* background */
+
+.ride-with-lyft .container {
+    background-image: url(images/blob1.svg);
+    background-repeat: no-repeat;
+    background-position-x:1000px;
+    background-position-y: -70px;
+}
+
+.info .container {
+    background-image: url(images/blob2.svg);
+    background-repeat: no-repeat;
+    background-position-x: -550px;
+
+}
+
+
+
+
+
+
+
+/* Media Queries */
+
+@media screen and (min-width: 300px) {
+    .hero .container {
+        justify-content: flex-end;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .hamburger {
+        z-index: 10;
+        display: block;
+    }
+    nav {
+        position: relative;
+    }
+    .nav-links {
+        position: fixed;
+        padding: 240px 0;
+        min-height: 100vh;
+        background-color:rgb(252, 242, 242);
+        min-width: 100vw;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: -30px;
+        margin-left: -30px;
+        clip-path: circle(100px at 100% -15%); 
+        -webkit-clip-path: circle(100px at 90% -15%);
+        transition: all 1s ease-out;
+    }
+    .nav-links.open {
+        clip-path: circle(1100px at 100% -20%);
+        -webkit-clip-path: circle(1100px at 90% -10%);
+        
+    }
+    
+}
+@media screen and (min-width: 400px) {
+    .hero .main-title {
+        font-size: 2em;
+        width: 50%;
+        margin-top: 0;
+    }
+    
+}
+
+@media screen and (min-width: 500px) {
+    .hero .main-title {
+        margin-top: 15px;
+    }
+    .ride-with-lyft h2 {
+        font-size: 1.9em;
+    }
+    .ride-with-lyft p {
+        width: 70%;
+    }
+    .ride-with-lyft .phone-item {
+        font-size: 1.2em;
+    }
+    .info h1 {
+        font-size: 2.8em;
+    }
+    .info h2 {
+        font-size: 2.2em;
+    }
+    footer {
+        justify-content: space-around;
+    }
+    .companies p {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .benefits .box {
+        max-width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .hero .main-title {
+        width: 40%;
+    }
+    .ride-with-lyft h2 {
+        font-size: 2.3em;
+    }
+  
+   
+    .benefits h2 {
+        text-align: center;
+        width: 100%;
+        flex-basis: 100%;
+        font-size: 2.3em;
+        margin-bottom: 30px;
+    }
+    .benefits .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: auto;
+    }
+    .benefits .box {
+        width: 30%;
+    }
+
+}
+
+@media screen and (min-width: 1000px) {
+    .hero .main-title {
+        margin-top: 30px;
+        max-width: 30%;
+        font-size: 2.5em;
+    }
+    .hero .btn1 {
+        margin-top: 35px;
+    }
+    .ride-with-lyft .container {
+        margin: 50px 0;
+      flex-direction: row;
+    }
+    .ride-with-lyft .phone-item {
+        margin-left: 20px;
+        margin-top: 30px;
+        font-size: 1.3em;
+    }
+    .ride-with-lyft img {
+        max-width: 450px;
+        object-fit: scale-down;
+    }
+
+    .info .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .info h1 {
+        font-size: 3.5em;
+        min-width: 100%;
+        text-align: center;
+        margin-bottom: 90px;
+    }
+    .info .rider img {
+        max-width: 600px;
+    }
+    .info .driver img {
+        max-width: 600px;
+    }
+    .info .driver, .rider {
+        display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    }
+    .info .rider .left-col {
+        width: 50%;
+    }
+    .info .rider .right-col {
+        width: 40%;
+    }
+    .info .driver .right-col{
+        width: 50%;
+        margin-right: -50%;
+        margin-left: 45%;
+    }
+    .info .driver .left-col {
+        width: 40%;
+        margin-right: 45%;
+        margin-left: -40%;
+    }
+    .info .driver .driver-box {
+        width: 80%;
+    }
+    .drive-text {
+        transform: translateX(-100px);
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .drive-text h4 {
+        font-weight: 500;
+    }
+    .benefits .container {
+        padding: 80px 0;
+    }
+    .benefits .box {
+        max-width: 230px;
+        max-height: 200px;
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+    .benefits h2 {
+        margin-bottom: 100px;
+    }
+
+
+    .companies {
+        padding: 50px 0;
+    }
+    .companies .company-icons {
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: 1fr;
+    }
+
+
+}
+
+@media screen and (min-width: 1300px) {
+    .nav-links {
+        width: 30%;
+    }
+    .hero {
+        height: 500px;
+    }
+    .hero .main-title {
+        margin-top: 80px;
+        font-size: 4em;
+      
+    }
+    .hero .left-col {
+        margin-right: 30px;
+    }
+    
+   
+}
+
+
+@media screen and (min-width: 1600px) {
+.info .rider .left-col img {
+    margin-left: 100px;
+}
+.info .rider .right-col  {
+    margin-right: 100px;
+}
+.info .driver .right-col img {
+    margin-left: 100px;
+}
+}
