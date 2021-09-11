@@ -532,7 +532,12 @@ footer .social-links {
     .hero .left-col {
         margin-right: 30px;
     }
-    
+    .ride-with-lyft .container {
+        padding: 150px 0;
+    }
+    .info h1 {
+        font-size: 4em;
+    }
    
 }
 
