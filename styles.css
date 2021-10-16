@@ -14,7 +14,6 @@ body {
 nav {
     padding: 30px;
     display: flex;
-
 }
 nav img {
     z-index: 100;
@@ -424,11 +423,17 @@ footer .social-links {
 @media screen and (min-width: 1000px) {
     .hero .main-title {
         margin-top: 30px;
-        max-width: 30%;
         font-size: 2.5em;
+        text-align: right;
+    }
+    .hero {
+        padding: 100px 50px;
     }
     .hero .btn1 {
         margin-top: 35px;
+    }
+    .hero .btn2 {
+
     }
     .ride-with-lyft .container {
         margin: 50px 0;
@@ -521,13 +526,14 @@ footer .social-links {
     .nav-links {
         width: 30%;
     }
-    .hero {
-        height: 500px;
-    }
+        .hero {
+            padding: 150px 30px;
+        }
+
     .hero .main-title {
-        margin-top: 80px;
-        font-size: 4em;
-      
+
+        font-size: 3.6em;
+        text-align: right;
     }
     .hero .left-col {
         margin-right: 30px;
