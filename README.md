@@ -1,3 +1,3 @@
 # lyft-landingpage
 
-See final product -> https://therealkai.github.io/lyft-landingpage/
+See final product -> https://kaiwritescode.github.io/lyft-landingpage/
